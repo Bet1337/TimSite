@@ -1,0 +1,139 @@
+body{
+  margin:0;
+}
+
+
+header {
+  width: 100vw;
+  height: 15vh;
+  position: relative; 
+  margin: 0;
+}
+
+.logo{
+  background-image: url('img/universo1.jpg');
+  width: 100vw;
+  height: 12vh;
+  padding: 10px;
+  float:left;
+  margin-left: 10px;
+  margin: 10px;
+}
+
+ .menu{
+  position: absolute;
+  top:25%;
+  left: 40%;
+
+ }
+ .menu li{
+  color:#ffaa00;
+  font-size: 30px;
+  font-family: serif;
+  display: inline-block;
+  margin-left: 100px;
+  transition: all .2s;
+  cursor:pointer;
+}
+
+.menu li:hover {
+  transform: scale(1.2);
+  color: #Fff;
+}
+
+section{
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+
+}
+
+.info img{
+  float: left;
+  position: absolute;
+  width: 30vw;
+  height: auto;
+  border-radius: 8px;
+  margin: 0px;
+  padding: 0px;
+  left: 10vw;
+  top:10vw;
+}
+.info p{
+  position: relative;
+  float: right;
+  right: 20vw;
+  top: 15vw;
+  font-size: 30px;
+  text-align: center; }
+  .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  top: 10vh;
+  left: 10vw;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+    top: 10vh;
+  left: 10vw;
+
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+    top: 10vh;
+  left: 20vw;
+  text-align: left;
+
+}
+
+/*article{
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+
+}
+.music{
+  position: absolute;
+  left: 20%;
+  top:10%;
+}
+.player{
+  position: relative;
+  margin:0px;
+  bottom: 45px
+}
+
+.player img{
+  margin-left:30px;   
+
+}*/

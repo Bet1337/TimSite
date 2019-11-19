@@ -1,0 +1,197 @@
+body {
+	margin: 0;
+	background-color: #8264a9;
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+
+}
+
+.Titulo {
+
+  	padding: 40px;
+  	color: #bbb;
+  	font-size: 10vh;
+  	font-family: 'Nunito', sans-serif;
+
+  	text-align: center;
+  	background-color: #00183e;
+	/*width:100%;*/
+
+}
+
+.Navegacao ul {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #333;
+  	border-top:2px solid #bbb;
+  	border-bottom:2px solid #bbb;
+
+
+}
+
+.Navegacao li {
+  	float: left;
+  	text-align: center;
+  	position: relative;
+  	/*left: 4vw;*/
+  	/*border-right:0.5px solid #bbb;*/
+	width: 24.73vw; /*Conserte aqui a nav bar quebrada*/
+}
+
+.Navegacao li:last-child {
+  	border-right: none;
+}
+
+.Navegacao li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+  	text-decoration: none;
+ 	border-right:0.5px solid #bbb;
+}
+
+.Navegacao li a:hover{
+  	background-color: #111;
+}
+
+.texto {
+	color: white;
+	font-size: 25px;
+	/*width: 100%;*/
+	height: auto;
+	text-align: center;
+
+}
+
+
+
+#texto1{
+
+	position: relative;
+	top: 20vh;
+	float: right;
+	clear: right;
+	right: 60px;
+
+
+}
+
+#texto2{
+	color: white;
+	font-size: 25px;
+	
+	height: auto;
+	text-align: left;
+	position: relative;
+	top: 50vh;
+	float: left;
+	left: 20px;
+	
+}
+#texto3{
+	color: white;
+	font-size: 25px;
+	
+	height: auto;
+	text-align: left;
+	position: relative;
+	top: 30vh;
+	float: left;
+	left: 20px;
+	
+}
+
+#texto4{
+	color: white;
+	font-size: 25px;
+	
+	height: auto;
+	text-align: left;
+	position: relative;
+	top: 30vh;
+	float: left;
+	left: 20px;
+	
+}
+
+#texto5{
+	color: white;
+	font-size: 25px;
+	
+	height: auto;
+	text-align: left;
+	position: relative;
+	top: 95vh;
+	float: left;
+	left: -50vw;
+	
+}
+
+
+
+
+
+
+#introducao{
+
+	/*border-radius: 49%;*/
+
+	width: 30vw;
+	height: auto;
+	position: relative;
+	top: 14vh;
+	
+	left: 0vw;
+	min-width: 30px;
+	/*float: left;*/
+	border: 3px solid orange;
+}
+
+#biografia{
+
+	width: 30vw;
+	height: auto;
+	position: relative;
+	top: 60vh;
+	
+	left: 0vw;
+	min-width: 30px;
+	border: 3px solid orange;
+
+}
+#curiosidades{
+	width: 30vw;
+	height: auto;
+	position: relative;
+	top: 50vh;
+	float: right;
+	right:10vw;
+	/*left: 0vw;*/
+	min-width: 30px;
+	border: 3px solid orange;
+}
+
+#line1{
+	width: 100%;
+	height: 5px;
+	border-bottom: 5px solid black;
+	position: relative;
+	top: 30vh;
+}
+#line2{
+	width: 100%;
+	height: 5px;
+	border-bottom: 5px solid black;
+	position: relative;
+	top: 80vh;
+}
