@@ -10,13 +10,13 @@
 <body>
 	<header>
 		<div class="logo">
-			<img src="img/logo.png" alt="Tim mal" height="100" width="300">
+			<img src="img/TimTitulo.png" alt="Tim mal" height="100" width="300">
 		</div>
 		<div class="menu">
 			<ul>
-				<li>Home</li>
-				<li>fodase</li>
-				<li>pornhub</li>
+				<li><a href="#home">INTRO</a></li>
+				<li><a href="#musicas">MÚSICAS</a></li>
+				<li><a href="#curiosidades">CURIOSIDADES</a></li>
 			</ul>
 			
 		</div>
@@ -24,7 +24,8 @@
 	</header>
 
 <div class="container">
-  <img src="img/tim_maia.png" alt="Avatar" class="image">
+	<div id = "home"></div>
+  <img src="img/banda_larga.jpg" alt="Tim Mala" class="image">
   <div class="overlay">
     <div class="text"><p>Tim Maia: cantor, compositor e empresário.<br>Tinha em suas musicas elementos de generos musicais<br>muito diversificados, como: Soul, Funk, Disco, Pop, Rock, Baião e MPB.<br>Reconhecido como um dos maiores icones da musica brasileira</p></div>
   </div>
@@ -34,36 +35,61 @@
 	Sebastião Rodrigues Maia, nasceu no Rio de Janeiro, em 28 de setembro de 1942.<br> em 57 fundou o grupo "The Sputniks", cantando junto com Roberto Carlos.<br>Em 59 viajou para os EUA, onde conheceu o estilo Soul.<br>em 1970 teve seus primeiros sucessos com "Azul da cor do mar".
 </p>
 
-	<section>
+	
+
+	<section id="musicas">
+	<h1 id="texto">MÚSICAS</h1>
 	<div class="container2">
-  		<img src="img/timalbum.jpg" alt="Avatar" class="album" style="width:100%">
+  		<img src="img/Beleza.png" alt="Tim Maia" class="album" style="width:93%">
   	<div class="middle">
-  		<audio id='audio' src="song/ai.mp3"></audio>
-    	<div class="text">
-    		<img src="img/player.png" alt="player" height="100" width="100" onclick="getElementById('audio').play()">
-    		<img src="img/pause1.png" alt="pause" height="100" width="100" onclick="getElementById('audio').pause()">
+  		<audio id='audio' src="song/Racional.mp3"></audio>
+    	<div class="icones">
+    		<img src="img/player.png" alt="player" height="55" width="55" onclick="getElementById('audio').play()">
+    		<img src="img/pause1.png" alt="pause" height="55" width="55" onclick="getElementById('audio').pause()">
+    	</div>
+  	</div>
+	</div>
+
+	<div class="container2" style="margin-left: 60px">
+  		<img src="img/sete.jpg" alt="Tim Maia" class="album" style="width:93%">
+  	<div class="middle">
+  		<audio id='mares' src="song/Sete_Mares.mp3"></audio>
+    	<div class="icones">
+    		<img src="img/player.png" alt="player" height="55" width="55" onclick="getElementById('mares').play()">
+    		<img src="img/pause1.png" alt="pause" height="55" width="55" onclick="getElementById('mares').pause()">
+    	</div>
+  	</div>
+	</div>
+
+	<div class="container2" style="margin-left:60px">
+  		<img src="img/suzana.jpg" alt="Tim Maia" class="album" style="width:95%">
+  	<div class="middle">
+  		<audio id='marcio' src="song/mar.mp3"></audio>
+    	<div class="icones">
+    		<img src="img/player.png" alt="player" height="55" width="55" onclick="getElementById('marcio').play()">
+    		<img src="img/pause1.png" alt="pause" height="55" width="55" onclick="getElementById('marcio').pause()">
     	</div>
   	</div>
 	</div>
 	</section>	
 	
-	
-	<!-- <article> 
-		<div class="music">
-			<img src="img/timalbum.jpg" alt="Album de Bosta" height="200" width="200">
-
-			<div class="player">
-			<audio audio id='teste' src='song/ai.mp3'></audio>	
-			<img src="img/player.png" alt='player' height="40" width="50"  onclick="getElementById('teste').play()" >
-			<img src="img/pause.png" alt="pause" height="40" widht="50" onclick="getElementById('teste').pause()">
-			</div>
-		</div>
-	</article>-->
 
 
-<div>
+
+
+	<div id = "curiosidades"><h1 id = "texto2">Curiosidades</h1>
+    <p id = "curiosidadeTexto">
+        • Em 1988, 1990, 1992, 1993, 1995 e 1997 foi o vencedor do prestigiado Prêmio Sharp<br>de música na categoria de melhor cantor.<br>
+        <br>
+        • Em 19 de junho de 2015, foi inaugurada uma estátua em sua homenagem na Tijuca,<br> bairro onde Tim nasceu e cresceu.<br>A estátua é feita de bronze e mede 180 centímetros, 12 a mais que o cantor tinha.<br>
+        <br>
+        • Tim passou por uma fase Racional, ao ter entrado na religião do racionalismo<br>
+
+
+
+    </p>
+
 <img  id = "Timimg2" src = "img/Tim2.jpg">
-</div>
 
 
 
@@ -74,24 +100,15 @@
 
 
 
-
-
-
-
-
-
-
-<!--
 <footer>
 <div id = "rodapé">
 <br><br>
 Feito por: Angelo C., Vitor M. , Guilherme R. , Luis B. , Júlio W.
 <br>
-Contato: luiseduardobet22@hotmail.com
-<br>
+Contato: luiseduardobet22@gmail.com
+<br>.
 </div>
 </footer>
--->
 
 </body>
 </html>
